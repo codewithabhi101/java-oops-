@@ -16,7 +16,7 @@ public class Man {
     }
 
     public static void main(String[] args) {
-        // Create an object of Man
+        
         Man abhi = new Man("Abhi", 25, "friendly");
         abhi.introduce();
     }
