@@ -3,7 +3,7 @@ public class demo4 {
     {
         int nums[] = {3,7,2,4};
         System.out.println(nums[1]);
-
+ 
     }
     
 }
