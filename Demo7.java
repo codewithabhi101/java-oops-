@@ -1,13 +1,15 @@
-import java.util.Scanner;
+class Car {
+    String brand = "Toyota";
+    int speed = 100;
 
-public class Demo7 {
-    public static void main(String [] args){
-    try (Scanner sc = new Scanner(System.in)){
-        System.out.println("Enter the first number : ");
-        if (num >= 0){
-        System.out.prinln("Number is positive.");
-      }else{
-      System.out.prinln("The number is negative.");
-      }
-}
+    void drive() {
+        System.out.println("Driving " + brand + " at " + speed + " km/h");
     }
+}
+
+public class demo7 {
+    public static void main(String[] args) {
+        Car myCar = new Car();
+        myCar.drive();
+    }
+}
