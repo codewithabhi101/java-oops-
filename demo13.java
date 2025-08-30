@@ -5,21 +5,26 @@ class Human
     public int getAge(){
         return age;
     } 
-
-    public String getName()
-    {
+    public void setAge(int a){
+        age = a;
+    }
+    public String getName(){
         return name;
     }
+
+    public void setName(String n){
+        name = n;
+    }
+}
     public class demo13
 
     {
         public static void main(String a[]){
             Human obj = new Human();
-            //obj.age = 11;
-            //obj.name = "Navin";
+            obj.setAge (28);
+            obj.setName ("Abhi");
 
             System.out.println(obj.getName() + " : " + obj.getAge());
         }
     }
 
-}
