@@ -5,8 +5,9 @@ class Human
     public int getAge(){
         return age;
     } 
-    public void setAge(int age){
-        age = age;
+    public void setAge(int age,Human obj){
+        Human obj1 = obj;
+        obj1.age = age;
     }
     public String getName(){
         return name;
@@ -21,7 +22,7 @@ class Human
     {
         public static void main(String a[]){
             Human obj = new Human();
-            obj.setAge (28);
+            obj.setAge (28,obj);
             obj.setName ("Abhi");
 
             System.out.println(obj.getName() + " : " + obj.getAge());
