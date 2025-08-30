@@ -5,8 +5,8 @@ class Human
     public int getAge(){
         return age;
     } 
-    public void setAge(int a){
-        age = a;
+    public void setAge(int age){
+        age = age;
     }
     public String getName(){
         return name;
